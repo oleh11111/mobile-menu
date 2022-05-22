@@ -1,0 +1,129 @@
+ul{
+    list-style: none;
+}
+a{text-decoration: none;}
+ p, h1-h6, ul, li {margin: 0px; padding: 0px;}
+
+ img{display: z;}
+
+ html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    outline: 1px solid olive;
+    padding: 10px 15px;
+}
+.page{
+    position: relative;
+}
+
+ .logo{
+     font-family: raleway sans-serif;
+     font-weight: 700;
+     font-size: 24;
+     line-height:1.29 ;
+     color: aqua;
+ }
+
+    
+
+ .lable{
+     color: #212121;
+ }
+
+ .menu-button{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+     display:ninline-flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0px;
+     padding: 0px;
+     width: 40px;
+     height: 40px;
+     border: none;
+     background-color: transparent;
+ }
+
+ .menu-button .icon-close{
+     display: none;
+    }
+    
+ .menu-button.is-open .icon-close{
+     display: block;
+    }
+
+  .menu-button.is-open .icon-menu{
+    display: none;
+}
+ .menu-container{
+     display: none;
+ }
+
+ .is-open{
+     display: block;
+ }
+
+ ul{
+     margin-bottom: 20px;
+ }
+a{
+    font-family: roboto sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.4;
+
+}
+
+.nav-link{
+    display: block;
+    color: yellowgreen;
+
+}
+
+.nav-link:hover{
+    color: aqua;
+}
+
+.contact-link{
+    display: block;
+    color: violet;
+}
+.tel{
+    font-size: 24px;
+    color: aqua;
+
+}
+
+.soc-list{
+    display: inline-flex;
+}
+    
+.soc-list .item:not(last-child){
+    border-right: 1px solid brown;
+    margin-right: 10px;
+}
+
+
+.soc-link{
+    
+    color: tomato;
+    margin-right: 10px;
+}
+
+
+
+.menu-button:hover .icon{
+    fill: aqua;
+}

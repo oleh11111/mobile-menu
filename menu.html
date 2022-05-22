@@ -1,0 +1,55 @@
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+<link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+       <div class="container page">
+           <a class="logo" href="" >company <span class="lable">logo</span></a>
+           <button class="menu-button is-open" data-menu-button
+            type="button"
+            aria-label="переключатель мобильного меню"
+            aria-expanded="false"
+            aria-controls="menu-container">
+            
+            
+               <svg width="40"
+               height="40">
+                   <use class="icon-menu icon" href="./style/img/symbol-defs.svg#menu"></use>
+                   <use class="icon-close icon" href="./style/img/symbol-defs.svg#close"></use>
+               </svg>
+           </button>
+           <div class="menu-container is-open" id="menu-container" data-menu>
+        
+            <ul class=" nav-list">
+                <li class="item"><a class="nav-link" href="">studio</a></li>
+                <li class="item"><a class="nav-link" href="">portpholio</a></li>
+                <li class="item"><a class="nav-link" href="">contacts</a></li>
+                
+            </ul>
+            <ul class="contact-list">
+                <li class="item"><a class="contact-link tel" href="tel:+380960000000">+38 096 000 00 00</a></li>
+                <li class="item"><a class="contact-link" href="mail to:molehvas@mail.com">"molehvas@mail.com</a></li>
+                
+            </ul>
+            <ul class="soc-list">
+                <li class="item"><a class="soc-link" href="">instagram</a></li>
+                <li class="item"><a class="soc-link" href="">facebook</a></li>
+                <li class="item"><a class="soc-link" href="">twiter</a></li>
+                <li class="item"><a class="soc-link" href="">linkedin</a></li>
+            </ul>
+        </div>
+       </div>
+    </header>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
